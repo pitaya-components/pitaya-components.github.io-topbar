@@ -1,0 +1,23 @@
+<template>
+	<pitaya-app>
+		<pitaya-view>
+
+		<pitaya-topbar>
+			<pitaya-topbar-row>
+				<pitaya-topbar-navigation
+					title="Topbar Title"
+					icon="favorite"
+					on-icon-click.call="_navigationIconClicked()"
+				></pitaya-topbar-navigation>
+				<pitaya-topbar-actions>
+					<pitaya-topbar-action-icon
+						icon="more_vert"
+						on-click.call="_actionClicked('more')"
+					></pitaya-topbar-action-icon>
+				</pitaya-topbar-actions>
+			</pitaya-topbar-row>
+		</pitaya-topbar>
+
+		</pitaya-view>
+	</pitaya-app>
+</template>
